@@ -1,0 +1,48 @@
+1.Introduction to Functional programming
+----------------------------------------
+
+What is a functional interface
+
+functional interface is an interface which contains one and only one abstract method
+
+
+1.1  What is Functional Programming
+----------------------------------
+
+Functional programming is a paradigm that allows programming using expressions
+ i.e. declaring functions, passing functions as arguments and using functions 
+as statements (rightly called expressions in Java8).
+
+1.2.Advantages of Functional programming:
+---------------------------------------
+ code is more concise, less complex, more predictable, and easier to test compared
+ to the legacy style of coding.
+
+1.3.Functional Interfaces catogeries
+--------------------------------
+All functional interfaces belong to the api java.util.function.
+
+URL: https://docs.oracle.com/javase/8/docs/api/java/util/function/package-summary.html
+
+
+1.Suppliers
+It's get() method never takes any argument but always return something
+
+2.Consumers
+It's accpt() method always takes an argument and never return anything
+
+3.Predicates
+It's test() method takes a value does a logical test and returns true or false.
+
+4.Functions
+It's apply() method takes an argument and returns a value.
+
+Demos
+------
+1.Demo1
+2.Demo2
+3.Demo3
+4.Demo4
+
+
+
